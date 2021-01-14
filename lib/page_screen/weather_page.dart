@@ -134,58 +134,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
 
-                                 /*
 
-                                  //ICON CLOUD AND TEXT TEMPERATURE
-                                  Row(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(Icons.wb_cloudy),
-                                      Text(
-                                        ' ${weather.temp}',
-                                        style: TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: textSuperBig,
-                                          color: themeState.textColor,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                  SizedBox(
-                                    height: 10.0,
-                                  ),
-
-                                  //TEXT LOCATION
-                                  Text(
-                                    '${weather.location}',
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.normal,
-                                      fontSize: textNormal,
-                                      color: themeState.textColor,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    height: 10.0,
-                                  ),
-
-                                  //TEXT DATE/TIME
-                                  Text(
-                                    '${weather.time}',
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.normal,
-                                      fontSize: textNormal,
-                                      color: themeState.textColor.withOpacity(0.4),
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    height: 10.0,
-                                  ),
-
-                                  //TEXT WEATHER
-                                  Text('${weather.weatherStateName}'),
-
-
-                                  */
 
 
                                   TemperatureWidget(weatherData: weather),

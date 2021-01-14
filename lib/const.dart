@@ -35,3 +35,4 @@ const double textBig = 20.0;
 const double textToolbar = 28.0;
 const double textSuperBig = 28.0;
 const double textSuperSuperBig = 36.0;
+const double textTemperature = 50.0;
