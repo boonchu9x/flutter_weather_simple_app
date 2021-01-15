@@ -14,7 +14,7 @@ class SettingBloc extends Bloc<SettingEvent, SettingState> {
   Stream<SettingState> mapEventToState(SettingEvent settingEvent) async*{
     //switch farenheit
     if(settingEvent is SettingEventToggleUnit){
-      yield SettingState(temperatureUnit: settingEvent == TemperatureUnit.celsius ? TemperatureUnit.farenheit : TemperatureUnit.celsius);
+      yield SettingState(temperatureUnit: state.temperatureUnit == TemperatureUnit.celsius ? TemperatureUnit.farenheit : TemperatureUnit.celsius);
     }
   }
 }
